@@ -1,0 +1,35 @@
+{
+  "name": "redis_node_server",
+  "version": "1.0.0",
+  "description": "using redis cashe to store and retrieve data",
+  "main": "./src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EmiRoberti77/redis_node_server.git"
+  },
+  "keywords": [
+    "redis",
+    "api",
+    "cashe",
+    "redis-om"
+  ],
+  "author": "Emi Roberti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmiRoberti77/redis_node_server/issues"
+  },
+  "homepage": "https://github.com/EmiRoberti77/redis_node_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "redis": "^4.7.0",
+    "redis-om": "^0.4.7",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  }
+}
