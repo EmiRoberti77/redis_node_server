@@ -78,11 +78,13 @@ const carSchema = new Schema("car", {
 
 ## How Redis Differs from Other Databases
 
+<img width="784" alt="Screenshot 2024-12-02 at 05 50 09" src="https://github.com/user-attachments/assets/95f4f4ea-dade-46bf-9b6d-e91498ac22bf">
+
 ## install redis server on a mac os
 
 this will install the base server
 
-# insert table here
+
 
 ```bash
 brew install redis
